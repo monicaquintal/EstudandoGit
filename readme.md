@@ -39,3 +39,6 @@ Envia um arquivo para o GutHub;
 teste
 
 TESTANDO COM O TOKEN
+
+  TOKEN GERADO, COMMIT PELO TERMINAL FEITO COM SUCESSO
+  
