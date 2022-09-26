@@ -37,3 +37,5 @@ Envia um arquivo para o GutHub;
 "push" quer dizer, literalmente, empurrar os commits do repósitório local (Git) para o repositório remoto (GitHub);
 
 teste
+
+TENTANNDO AJUDAR MEU AMORZINHO
