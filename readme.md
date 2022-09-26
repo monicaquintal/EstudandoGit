@@ -36,12 +36,29 @@ Portanto, para modificar a nomenclatura, usar o comando acima.</p>
 
 <h2>git remote add origin https://github.com/monicaquintal/EstudandoGit.git</h2>
 <p>Cria conexão entre repositório local (pc) e o GitHub;<br>
-Para colar no Git, usar ctrl + shift + V ou Insert.</p>
+Para colar no Git, usar ctrl + shift + V ou Insert;<br>
+Só é utilizado uma vez - a conexão com github só é feita uma vez.</p>
 <br>
 
 <h2>git push -u origin main</h2>
 <p>Envia um arquivo para o GutHub;<br>
-"push" quer dizer, literalmente, empurrar os commits do repósitório local (Git) para o repositório remoto (GitHub).</p>
+"push" quer dizer, literalmente, empurrar os commits do repósitório local (Git) para o repositório remoto (GitHub);<br>
+O "-u" é utilizado apenas na primeira vez.</p>
+<br>
 
 <h2>clear</h2>
 <p>Limpa a tela de comandos.</p>
+<br>
+
+<h2>git checkout -b "nomeDaBranch"</h2>
+<p>Cria uma <strong><em>branch</strong></em>, que é uma ramificação do projeto (normalmente utilizada para desenvolver features);<br>
+O nome entre aspas define o nome da nova branch, e o "checkout" indica a saída da branch main;<br>
+Não necessariamente são adicionados novos arquivos, pode apenas modificar os já existentes;<br>
+Utiliza os demais comandos normalmente: "git add .", "git commit -m 'nomeCommit'", "git push origin nomeDaBranch";<br>
+E para voltar à main, utilizar o comando "git checkout main". </p>
+<br>
+
+<h2>git merge nomeDaBranch</h2>
+<p>O <em><strong>Merge</em></strong> faz a junção da branch com a main;<br>
+Para isso, usar os comandos "git checkout main", e "git merge nomeDaBranch".<br>
+</p>
