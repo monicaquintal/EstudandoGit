@@ -16,7 +16,7 @@ Clicar com botão direito do mouse no diretório:
 master = branch master = main.</p>
 <br>
 
-<h2>git add nomeDoArquivoQuePretendeMandarParaEssaÁrea <em>ou</em> git add . <em>ou</em> git add --all <em>ou</em> git add -A</h2>  
+<h2>git add nomeDoArquivoQuePretendeMandarParaEssaÁrea <br><em>ou</em> git add . <br><em>ou</em> git add --all <br><em>ou</em> git add -A</h2>  
 <p>Comando que manda os arquivos para a área de staging; <br>
 o comando <strong>"git add ."</strong> manda todos os arquivos para a área de stading!</p>
 <br>
