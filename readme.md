@@ -16,7 +16,7 @@ Clicar com botão direito do mouse no diretório:
 master = branch master = main.</p>
 <br>
 
-<h2>git add nomeDoArquivoQuePretendeMandarParaEssaÁrea</h2>  
+<h2>git add nomeDoArquivoQuePretendeMandarParaEssaÁrea <em>ou</em> git add . <em>ou</em> git add --all <em>ou</em> git add -A</h2>  
 <p>Comando que manda os arquivos para a área de staging; <br>
 o comando <strong>"git add ."</strong> manda todos os arquivos para a área de stading!</p>
 <br>
@@ -27,6 +27,10 @@ o comando <strong>"git add ."</strong> manda todos os arquivos para a área de s
 
 <h2>git commit -m "comentário/mensagem"</h2>
 <p>Commita o arquivo (commits são versões do arquivo).</p>
+<br>
+
+<h2>git restore nomeDoArquivo</h2>
+<p>Descarta todas as mudanças. Volta à versão previamente insetida no ambiente de staging.</p>
 <br>
 
 <h2>git branch -M "main"</h2>
@@ -48,6 +52,10 @@ O "-u" é utilizado apenas na primeira vez.</p>
 
 <h2>clear</h2>
 <p>Limpa a tela de comandos.</p>
+<br>
+
+<h2>git reset HEAD nomeDoArquivo</h2>
+<p>Desfaz alterações locais no estado de um repositório do Git. O git reset opera nas "três árvores do Git", que são o Histórico de commits (HEAD), o Índice de staging e o Diretório de trabalho.</p>
 <br>
 
 <h2>git checkout -b "nomeDaBranch"</h2>
@@ -85,3 +93,19 @@ O comando <em><strong></em>cd</strong> permite entrar em outros Repositórios.<b
 Para tal, commitar as alterações no próprio perfil, clicar em "Contribute", e em "Open pull request";<br>
 Colocar um nome objetivo, que demonstre a funcionalidade incluída, além de descrever o que desenvolveu, e ensinando a forma de testar;<br>
 Para aceitar o Merge, clicar em "Merge pull request".</p>
+
+<hr>
+
+<h2>Excluindo um arquivo</h2>
+<p>Se quiser <strong>DESFAZER</strong> a exclusão, utilizar o comando git restore nomeDoArquivo.<br>
+Se quiser, de fato, excluir o arquivo, utilizar git add nomeDoArquivo > git status > arquivo estará preparado para ser comittado (aguardando na área de staging).
+O git restore --stage nomeDoArquivo remove do staging > git restore nomeDoArquivo o retorna ao ambiente de trabalho.<br>
+Se pretender voltar ao estado anterior, utilizar git reset HEAD nomeDoArquivo (o arquivo estará apenas na área de trabalho local, não mais em staging).
+</p>
+
+<hr>
+
+<h2>Lidando com os Logs</h2>
+- git log: identifica os commits, primeiramente pela mensagem, e também pelo hash (string longa composta por numeros hexadecimais).
+- git checkout numeroHash: retorna ao commit anterior;
+- caso queira salvar as alterações, criar uma branch.
