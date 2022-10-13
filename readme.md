@@ -29,10 +29,6 @@ o comando <strong>"git add ."</strong> manda todos os arquivos para a área de s
 <p>Commita o arquivo (commits são versões do arquivo).</p>
 <br>
 
-<h2>git restore nomeDoArquivo</h2>
-<p>Descarta todas as mudanças. Volta à versão previamente inserida no ambiente de staging.</p>
-<br>
-
 <h2>git branch -M "main"</h2>
 <p>O git tem mudado a nomenclatura da branch principal, de "master" para "main"; <br>
 Portanto, para modificar a nomenclatura, usar o comando acima.</p>
@@ -52,6 +48,10 @@ O "-u" é utilizado apenas na primeira vez.</p>
 
 <h2>clear</h2>
 <p>Limpa a tela de comandos.</p>
+<br>
+
+<h2>git restore nomeDoArquivo</h2>
+<p>Descarta todas as mudanças. Volta à versão previamente inserida no ambiente de staging.</p>
 <br>
 
 <h2>git reset HEAD nomeDoArquivo</h2>
