@@ -30,7 +30,7 @@ o comando <strong>"git add ."</strong> manda todos os arquivos para a área de s
 <br>
 
 <h2>git restore nomeDoArquivo</h2>
-<p>Descarta todas as mudanças. Volta à versão previamente insetida no ambiente de staging.</p>
+<p>Descarta todas as mudanças. Volta à versão previamente inserida no ambiente de staging.</p>
 <br>
 
 <h2>git branch -M "main"</h2>
@@ -106,6 +106,6 @@ Se pretender voltar ao estado anterior, utilizar git reset HEAD nomeDoArquivo (o
 <hr>
 
 <h2>Lidando com os Logs</h2>
-- git log: identifica os commits, primeiramente pela mensagem, e também pelo hash (string longa composta por numeros hexadecimais).
-- git checkout numeroHash: retorna ao commit anterior;
+- git log: identifica os commits, primeiramente pela mensagem, e também pelo hash (string longa composta por numeros hexadecimais).<br>
+- git checkout numeroHash: retorna ao commit anterior;<br>
 - caso queira salvar as alterações, criar uma branch.
